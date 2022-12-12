@@ -11,7 +11,6 @@ creds = {
 }
 
 print("Comms Listener starting. To exit press CTRL+C ...")
-
 # create instance of the listener class and sending in the creds
 # object as kwargs
 commsListener = CommsListener(**creds)
